@@ -1,0 +1,40 @@
+﻿@media(max-width: 869px){
+    .row .col{
+        width: 100%;
+    }
+    .row{
+        flex-flow: row wrap;
+        height: auto;
+    }
+    .col{
+        padding: 70px 50px;
+    }
+    .h50{
+        height: auto;
+    }
+    .about{
+        height: auto;
+    }
+}
+
+@media(max-width: 1000px){
+  .active{
+      width: 300px;
+  }
+    .right{
+        right: 300px;
+    }
+    .col {
+        padding: 70px 111px;
+    }
+    .h50{
+        height: auto;
+    }
+
+}
+@media (max-width: 549px) {
+     .portfolio{
+         max-height: 280px;
+         margin-top: 80px;
+     }
+}
